@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Futures Desk — India & US day-trade picks</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/static/styles.css?v=5" />
+</head>
+<body>
+  <header class="top">
+    <div class="brand"><span class="logo">▲▼</span> Futures Desk</div>
+    <div class="seg" id="market-toggle" role="tablist" aria-label="Market">
+      <button data-m="IN" class="on" role="tab">India · NSE F&amp;O</button>
+      <button data-m="US" role="tab">US · stock futures</button>
+    </div>
+    <div class="chips">
+      <span class="chip" id="mkt-state">—</span>
+      <span class="chip" id="asof">—</span>
+    </div>
+    <label class="risk">Risk / trade <span id="ccy">₹</span>
+      <input id="risk" type="number" min="1" step="any" />
+    </label>
+    <button id="refresh" type="button">Refresh</button>
+  </header>
+
+  <section class="verdict" id="verdict"><span>Loading…</span></section>
+  <section class="today" id="today"></section>
+
+  <main class="desk">
+    <aside class="left">
+      <nav class="tabs" id="left-tabs">
+        <button data-t="picks" class="on">Picks</button>
+        <button data-t="scan">Scanner</button>
+        <button data-t="books">Backtests</button>
+        <button id="widen" type="button" aria-pressed="false">Expand</button>
+      </nav>
+      <div id="tab-picks" class="pane"></div>
+      <div id="tab-scan" class="pane hidden"></div>
+      <div id="tab-books" class="pane hidden"></div>
+    </aside>
+    <div class="split" id="split" title="Drag to resize the list"></div>
+
+    <section class="right" id="detail">
+      <div class="empty big">Pick a name on the left to see its chart, setups, technicals, fundamentals and news.</div>
+    </section>
+  </main>
+
+  <button id="ask-open" type="button" class="ask-open">Ask the desk</button>
+  <section id="ask" class="ask hidden" aria-label="Trading questions">
+    <header class="ask-hd">
+      <div>
+        <b>Desk agent</b>
+        <div class="note">Answers from today's scan and the backtests. Not a promise of profit.</div>
+      </div>
+      <button id="ask-close" type="button">Close</button>
+    </header>
+    <div id="ask-log" class="ask-log"></div>
+    <form id="ask-form" class="ask-form">
+      <input id="ask-q" type="text" maxlength="500" placeholder="What should I buy today?" autocomplete="off" />
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer class="foot">
+    Backtests are history, not a promise. Costs are included; stops count first when a stop and target fall in one bar.
+    This is a research tool, not investment advice — futures are leveraged and can lose more than you put in.
+  </footer>
+  <script src="/static/app.js?v=5"></script>
+</body>
+</html>

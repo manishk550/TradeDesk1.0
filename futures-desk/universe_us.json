@@ -1,0 +1,622 @@
+{
+ "as_of": "2026-10-29",
+ "source": "CoinDCX Global Futures US stock/index perps (from coindcx-scanner/universe.json), US-listed tickers only",
+ "instruments": [
+  {
+   "id": "TSLA",
+   "name": "Tesla",
+   "nasdaq": "TSLA",
+   "kind": "stock",
+   "sector": ""
+  },
+  {
+   "id": "NVDA",
+   "name": "NVIDIA",
+   "nasdaq": "NVDA",
+   "kind": "stock",
+   "sector": ""
+  },
+  {
+   "id": "HOOD",
+   "name": "Robinhood",
+   "nasdaq": "HOOD",
+   "kind": "stock",
+   "sector": ""
+  },
+  {
+   "id": "INTC",
+   "name": "Intel",
+   "nasdaq": "INTC",
+   "kind": "stock",
+   "sector": ""
+  },
+  {
+   "id": "PLTR",
+   "name": "Palantir",
+   "nasdaq": "PLTR",
+   "kind": "stock",
+   "sector": ""
+  },
+  {
+   "id": "COIN",
+   "name": "Coinbase",
+   "nasdaq": "COIN",
+   "kind": "stock",
+   "sector": ""
+  },
+  {
+   "id": "META",
+   "name": "Meta",
+   "nasdaq": "META",
+   "kind": "stock",
+   "sector": ""
+  },
+  {
+   "id": "AAPL",
+   "name": "Apple",
+   "nasdaq": "AAPL",
+   "kind": "stock",
+   "sector": ""
+  },
+  {
+   "id": "MSFT",
+   "name": "Microsoft",
+   "nasdaq": "MSFT",
+   "kind": "stock",
+   "sector": ""
+  },
+  {
+   "id": "ORCL",
+   "name": "Oracle",
+   "nasdaq": "ORCL",
+   "kind": "stock",
+   "sector": ""
+  },
+  {
+   "id": "GOOGL",
+   "name": "Alphabet",
+   "nasdaq": "GOOGL",
+   "kind": "stock",
+   "sector": ""
+  },
+  {
+   "id": "AMZN",
+   "name": "Amazon",
+   "nasdaq": "AMZN",
+   "kind": "stock",
+   "sector": ""
+  },
+  {
+   "id": "AMD",
+   "name": "AMD",
+   "nasdaq": "AMD",
+   "kind": "stock",
+   "sector": ""
+  },
+  {
+   "id": "MU",
+   "name": "Micron",
+   "nasdaq": "MU",
+   "kind": "stock",
+   "sector": ""
+  },
+  {
+   "id": "SNDK",
+   "name": "SanDisk",
+   "nasdaq": "SNDK",
+   "kind": "stock",
+   "sector": ""
+  },
+  {
+   "id": "MSTR",
+   "name": "Strategy",
+   "nasdaq": "MSTR",
+   "kind": "stock",
+   "sector": ""
+  },
+  {
+   "id": "CRCL",
+   "name": "Circle",
+   "nasdaq": "CRCL",
+   "kind": "stock",
+   "sector": ""
+  },
+  {
+   "id": "NFLX",
+   "name": "Netflix",
+   "nasdaq": "NFLX",
+   "kind": "stock",
+   "sector": ""
+  },
+  {
+   "id": "COST",
+   "name": "Costco",
+   "nasdaq": "COST",
+   "kind": "stock",
+   "sector": ""
+  },
+  {
+   "id": "LLY",
+   "name": "Eli Lilly",
+   "nasdaq": "LLY",
+   "kind": "stock",
+   "sector": ""
+  },
+  {
+   "id": "TSM",
+   "name": "TSMC",
+   "nasdaq": "TSM",
+   "kind": "stock",
+   "sector": ""
+  },
+  {
+   "id": "RIVN",
+   "name": "Rivian",
+   "nasdaq": "RIVN",
+   "kind": "stock",
+   "sector": ""
+  },
+  {
+   "id": "BABA",
+   "name": "Alibaba",
+   "nasdaq": "BABA",
+   "kind": "stock",
+   "sector": ""
+  },
+  {
+   "id": "USAR",
+   "name": "USA Rare Earth",
+   "nasdaq": "USAR",
+   "kind": "stock",
+   "sector": ""
+  },
+  {
+   "id": "CRWV",
+   "name": "CoreWeave",
+   "nasdaq": "CRWV",
+   "kind": "stock",
+   "sector": ""
+  },
+  {
+   "id": "URNM",
+   "name": "Sprott Uranium Miners",
+   "nasdaq": "URNM",
+   "kind": "etf",
+   "sector": "ETF"
+  },
+  {
+   "id": "GME",
+   "name": "GameStop",
+   "nasdaq": "GME",
+   "kind": "stock",
+   "sector": ""
+  },
+  {
+   "id": "EWY",
+   "name": "iShares South Korea",
+   "nasdaq": "EWY",
+   "kind": "etf",
+   "sector": "ETF"
+  },
+  {
+   "id": "EWJ",
+   "name": "iShares Japan",
+   "nasdaq": "EWJ",
+   "kind": "etf",
+   "sector": "ETF"
+  },
+  {
+   "id": "HIMS",
+   "name": "Hims",
+   "nasdaq": "HIMS",
+   "kind": "stock",
+   "sector": ""
+  },
+  {
+   "id": "DKNG",
+   "name": "DraftKings",
+   "nasdaq": "DKNG",
+   "kind": "stock",
+   "sector": ""
+  },
+  {
+   "id": "LITE",
+   "name": "Lumentum",
+   "nasdaq": "LITE",
+   "kind": "stock",
+   "sector": ""
+  },
+  {
+   "id": "XLE",
+   "name": "Energy Select Sector",
+   "nasdaq": "XLE",
+   "kind": "etf",
+   "sector": "ETF"
+  },
+  {
+   "id": "BX",
+   "name": "Blackstone",
+   "nasdaq": "BX",
+   "kind": "stock",
+   "sector": ""
+  },
+  {
+   "id": "MRVL",
+   "name": "Marvell",
+   "nasdaq": "MRVL",
+   "kind": "stock",
+   "sector": ""
+  },
+  {
+   "id": "RKLB",
+   "name": "Rocket Lab",
+   "nasdaq": "RKLB",
+   "kind": "stock",
+   "sector": ""
+  },
+  {
+   "id": "BIRD",
+   "name": "BIRD",
+   "nasdaq": "BIRD",
+   "kind": "stock",
+   "sector": ""
+  },
+  {
+   "id": "DRAM",
+   "name": "Roundhill Memory",
+   "nasdaq": "DRAM",
+   "kind": "etf",
+   "sector": "ETF"
+  },
+  {
+   "id": "CBRS",
+   "name": "CBRS",
+   "nasdaq": "CBRS",
+   "kind": "stock",
+   "sector": ""
+  },
+  {
+   "id": "EWZ",
+   "name": "iShares Brazil",
+   "nasdaq": "EWZ",
+   "kind": "etf",
+   "sector": "ETF"
+  },
+  {
+   "id": "ZM",
+   "name": "Zoom",
+   "nasdaq": "ZM",
+   "kind": "stock",
+   "sector": ""
+  },
+  {
+   "id": "EBAY",
+   "name": "eBay",
+   "nasdaq": "EBAY",
+   "kind": "stock",
+   "sector": ""
+  },
+  {
+   "id": "ARM",
+   "name": "Arm",
+   "nasdaq": "ARM",
+   "kind": "stock",
+   "sector": ""
+  },
+  {
+   "id": "EWT",
+   "name": "iShares Taiwan",
+   "nasdaq": "EWT",
+   "kind": "etf",
+   "sector": "ETF"
+  },
+  {
+   "id": "ASML",
+   "name": "ASML",
+   "nasdaq": "ASML",
+   "kind": "stock",
+   "sector": ""
+  },
+  {
+   "id": "BB",
+   "name": "BlackBerry",
+   "nasdaq": "BB",
+   "kind": "stock",
+   "sector": ""
+  },
+  {
+   "id": "DELL",
+   "name": "Dell",
+   "nasdaq": "DELL",
+   "kind": "stock",
+   "sector": ""
+  },
+  {
+   "id": "IBM",
+   "name": "IBM",
+   "nasdaq": "IBM",
+   "kind": "stock",
+   "sector": ""
+  },
+  {
+   "id": "AVGO",
+   "name": "Broadcom",
+   "nasdaq": "AVGO",
+   "kind": "stock",
+   "sector": ""
+  },
+  {
+   "id": "NOW",
+   "name": "ServiceNow",
+   "nasdaq": "NOW",
+   "kind": "stock",
+   "sector": ""
+  },
+  {
+   "id": "NBIS",
+   "name": "Nebius",
+   "nasdaq": "NBIS",
+   "kind": "stock",
+   "sector": ""
+  },
+  {
+   "id": "WDC",
+   "name": "Western Digital",
+   "nasdaq": "WDC",
+   "kind": "stock",
+   "sector": ""
+  },
+  {
+   "id": "NOK",
+   "name": "Nokia",
+   "nasdaq": "NOK",
+   "kind": "stock",
+   "sector": ""
+  },
+  {
+   "id": "SMH",
+   "name": "VanEck Semiconductor",
+   "nasdaq": "SMH",
+   "kind": "etf",
+   "sector": "ETF"
+  },
+  {
+   "id": "BE",
+   "name": "Bloom Energy",
+   "nasdaq": "BE",
+   "kind": "stock",
+   "sector": ""
+  },
+  {
+   "id": "QCOM",
+   "name": "Qualcomm",
+   "nasdaq": "QCOM",
+   "kind": "stock",
+   "sector": ""
+  },
+  {
+   "id": "STRC",
+   "name": "STRC",
+   "nasdaq": "STRC",
+   "kind": "stock",
+   "sector": ""
+  },
+  {
+   "id": "AMAT",
+   "name": "Applied Materials",
+   "nasdaq": "AMAT",
+   "kind": "stock",
+   "sector": ""
+  },
+  {
+   "id": "SHAZ",
+   "name": "SHAZ",
+   "nasdaq": "SHAZ",
+   "kind": "stock",
+   "sector": ""
+  },
+  {
+   "id": "SKHY",
+   "name": "SKHY",
+   "nasdaq": "SKHY",
+   "kind": "stock",
+   "sector": ""
+  },
+  {
+   "id": "KSTR",
+   "name": "KSTR",
+   "nasdaq": "KSTR",
+   "kind": "etf",
+   "sector": "ETF"
+  },
+  {
+   "id": "GEV",
+   "name": "GE Vernova",
+   "nasdaq": "GEV",
+   "kind": "stock",
+   "sector": ""
+  },
+  {
+   "id": "KORU",
+   "name": "Direxion Korea Bull",
+   "nasdaq": "KORU",
+   "kind": "etf",
+   "sector": "ETF"
+  },
+  {
+   "id": "LYTE",
+   "name": "LYTE",
+   "nasdaq": "LYTE",
+   "kind": "stock",
+   "sector": ""
+  },
+  {
+   "id": "NCLD",
+   "name": "NCLD",
+   "nasdaq": "NCLD",
+   "kind": "stock",
+   "sector": ""
+  },
+  {
+   "id": "SOXL",
+   "name": "Direxion Semiconductor Bull",
+   "nasdaq": "SOXL",
+   "kind": "etf",
+   "sector": "ETF"
+  },
+  {
+   "id": "MAGS",
+   "name": "Roundhill Magnificent Seven",
+   "nasdaq": "MAGS",
+   "kind": "etf",
+   "sector": "ETF"
+  },
+  {
+   "id": "IREN",
+   "name": "IREN",
+   "nasdaq": "IREN",
+   "kind": "stock",
+   "sector": ""
+  },
+  {
+   "id": "NET",
+   "name": "Cloudflare",
+   "nasdaq": "NET",
+   "kind": "stock",
+   "sector": ""
+  },
+  {
+   "id": "CRWD",
+   "name": "CrowdStrike",
+   "nasdaq": "CRWD",
+   "kind": "stock",
+   "sector": ""
+  },
+  {
+   "id": "RDDT",
+   "name": "Reddit",
+   "nasdaq": "RDDT",
+   "kind": "stock",
+   "sector": ""
+  },
+  {
+   "id": "AAOI",
+   "name": "Applied Optoelectronics",
+   "nasdaq": "AAOI",
+   "kind": "stock",
+   "sector": ""
+  },
+  {
+   "id": "MRNA",
+   "name": "Moderna",
+   "nasdaq": "MRNA",
+   "kind": "stock",
+   "sector": ""
+  },
+  {
+   "id": "XBI",
+   "name": "SPDR Biotech",
+   "nasdaq": "XBI",
+   "kind": "etf",
+   "sector": "ETF"
+  },
+  {
+   "id": "SNXX",
+   "name": "SNXX",
+   "nasdaq": "SNXX",
+   "kind": "etf",
+   "sector": "ETF"
+  },
+  {
+   "id": "CVX",
+   "name": "Chevron",
+   "nasdaq": "CVX",
+   "kind": "stock",
+   "sector": ""
+  },
+  {
+   "id": "HO",
+   "name": "HO",
+   "nasdaq": "HO",
+   "kind": "stock",
+   "sector": ""
+  },
+  {
+   "id": "LRCX",
+   "name": "LRCX",
+   "nasdaq": "LRCX",
+   "kind": "stock",
+   "sector": ""
+  },
+  {
+   "id": "UMC",
+   "name": "UMC",
+   "nasdaq": "UMC",
+   "kind": "stock",
+   "sector": ""
+  },
+  {
+   "id": "TWST",
+   "name": "Twist Bioscience",
+   "nasdaq": "TWST",
+   "kind": "stock",
+   "sector": ""
+  },
+  {
+   "id": "GLW",
+   "name": "Corning",
+   "nasdaq": "GLW",
+   "kind": "stock",
+   "sector": ""
+  },
+  {
+   "id": "ACN",
+   "name": "Accenture",
+   "nasdaq": "ACN",
+   "kind": "stock",
+   "sector": ""
+  },
+  {
+   "id": "SNAP",
+   "name": "Snap",
+   "nasdaq": "SNAP",
+   "kind": "stock",
+   "sector": ""
+  },
+  {
+   "id": "TTWO",
+   "name": "Take-Two",
+   "nasdaq": "TTWO",
+   "kind": "stock",
+   "sector": ""
+  },
+  {
+   "id": "MUU",
+   "name": "MUU",
+   "nasdaq": "MUU",
+   "kind": "stock",
+   "sector": ""
+  },
+  {
+   "id": "NU",
+   "name": "Nu Holdings",
+   "nasdaq": "NU",
+   "kind": "stock",
+   "sector": ""
+  },
+  {
+   "id": "XYZ100",
+   "name": "Nasdaq 100 (QQQ proxy)",
+   "nasdaq": "QQQ",
+   "kind": "index",
+   "sector": "Index"
+  },
+  {
+   "id": "SP500",
+   "name": "S&P 500 (SPY proxy)",
+   "nasdaq": "SPY",
+   "kind": "index",
+   "sector": "Index"
+  }
+ ]
+}
